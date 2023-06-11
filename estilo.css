@@ -1,0 +1,56 @@
+@charset "UFT-8";
+@font-face {
+    font-family:'pincel';
+    src: url(fonte/Amarillo.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   
+
+
+
+    background: url(imagens/teste3.jpg) no-repeat bottom center ;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+main {
+    
+    }
+h1 {
+    font-family: 'pincel';
+    text-align: center;
+    margin-top:50px ;
+}
+h2 {
+    font-family: 'pincel';
+    text-align: center;
+    
+}
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    width: 200px;
+    height: 70px;
+    border: 2px solid #975E6D;
+    cursor:pointer;
+   
+}
+div > a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+    color: #ac5f74;
+    text-decoration: none;
+
+}
