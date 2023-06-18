@@ -46,18 +46,20 @@ a {
     text-decoration: none;
     color: black;
 }
-h2{
+h2{ padding: 30px;
     text-align: center;
+    font-weight: 400;
 }
 
 .n1{
     display: flex;
     align-items: center;
-    
-    padding: 15px;
+    margin-top: 5px;
+    padding:15px;
     font-size: 14px;
-    border-bottom: 1px solid black ;
-    margin: 0px 10px 0px 10px;
+    border-bottom: 1px solid #757575 ;
+    
+    cursor: pointer;
    
     
     
@@ -68,36 +70,44 @@ div img {
     border-radius: 50%;
 }
 .estilo {
-    color:rgb(138, 130, 130);
+    color:#757575;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 1.25rem;
     letter-spacing: 0.03333em;
-    padding: 2.5px;
+    
+    
 }
 
 
 footer{
     background-color: white ;
     display: flex;
-    height: 50px;
+    height: 51px;
     width: 100%;
     align-items: center;
     position: sticky;
-    bottom: 0;
+    bottom: -1px;
     box-shadow: -1px -5px 8px #00000086;
     justify-content: space-around;
     
 }
 footer .material-symbols-outlined {
-    color:rgb(138, 130, 130);
+    color:#757575;
+    
 }
 footer div {
     text-align: center;
 }
 
+.segundo{
+    padding: 8px;
+}
 
-
+.n1 a {
+    
+justify-content: left;
+}
 
     
 
