@@ -6,21 +6,26 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    height: 100vh;
+    background-color: #F4E7EE;
+    
+}
 header {
     
     background-color: black;
     color: rgb(218, 165, 32);
     display: flex;
     height: 50px;
-    
+    width: 100%;
     align-items: center;
+    position: sticky;
+    top: 0;
 
-    
-    
-    
-    
+    box-shadow: 5px 3px 8px #00000086;
     
    
+ 
     
 }
 header h1 {
@@ -36,27 +41,25 @@ header h1 {
     color: white; 
 }
 
-h2 {
-    text-align: center;
-}
 
-li {
-    list-style-type: none;
-    border-bottom: 1px solid black;
-    padding: 30px;
-   
-}
 a {
     text-decoration: none;
     color: black;
 }
+h2{
+    text-align: center;
+}
+
 .n1{
     display: flex;
     align-items: center;
-    margin: 30px;
-    padding: 10px;
+    
+    padding: 15px;
     font-size: 14px;
     border-bottom: 1px solid black ;
+    margin: 0px 10px 0px 10px;
+   
+    
     
 }
 div img {
@@ -72,4 +75,29 @@ div img {
     letter-spacing: 0.03333em;
     padding: 2.5px;
 }
+
+
+footer{
+    background-color: white ;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    box-shadow: -1px -5px 8px #00000086;
+    justify-content: space-around;
+    
+}
+footer .material-symbols-outlined {
+    color:rgb(138, 130, 130);
+}
+footer div {
+    text-align: center;
+}
+
+
+
+
+    
 
