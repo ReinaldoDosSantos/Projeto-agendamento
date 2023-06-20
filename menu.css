@@ -55,7 +55,7 @@ h2{ padding: 30px;
     
     align-items: center;
     margin-top: 5px;
-    padding:15px;
+    padding: 15px;
     font-size: 14px;
     border-bottom: 1px solid #757575 ;
     
@@ -85,13 +85,14 @@ footer{
     background-color: white ;
     display: flex;
     height: 51px;
-    width: 100%;
+    
     align-items: center;
     position: sticky;
     bottom: 0%;
+    top: 0%;
     box-shadow: -1px -5px 8px #00000086;
     justify-content: space-around;
-    padding: 15px;
+    
     
 }
 footer .material-symbols-outlined {
