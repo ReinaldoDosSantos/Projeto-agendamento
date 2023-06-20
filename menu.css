@@ -52,7 +52,7 @@ h2{ padding: 30px;
 }
 
 .n1{
-    display: flex;
+    
     align-items: center;
     margin-top: 5px;
     padding:15px;
@@ -68,6 +68,7 @@ div img {
     margin-right: 10px;
     width: 60px;
     border-radius: 50%;
+    float: left;
 }
 .estilo {
     color:#757575;
@@ -87,9 +88,10 @@ footer{
     width: 100%;
     align-items: center;
     position: sticky;
-    bottom: -1px;
+    bottom: 0%;
     box-shadow: -1px -5px 8px #00000086;
     justify-content: space-around;
+    padding: 15px;
     
 }
 footer .material-symbols-outlined {
