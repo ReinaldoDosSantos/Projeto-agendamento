@@ -86,18 +86,23 @@ div img {
 footer{
     background-color: white ;
     display: flex;
+    justify-content: space-around;
     height: 51px;
     
     align-items: center;
     
-    bottom: 0%;
+   
     width: 100%;
     box-shadow: -1px -5px 8px #00000086;
-    justify-content: space-around;
-    position: sticky;
     
-    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+    
+    
+
 footer .material-symbols-outlined {
     color:#757575;
     
