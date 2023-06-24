@@ -7,33 +7,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 100%;
-    background-color: #F4E7EE;
     
+    background-color: #F4E7EE;  
 }
 header {
-    
     background-color: black;
     color: rgb(218, 165, 32);
     display: flex;
-    height: 65px;
+    height: 51px;
     width: 100%;
     align-items: center;
     position: sticky;
-    top: 0;
-
+    top: 0px;
     box-shadow: 5px 3px 8px #00000086;
     
-   
- 
-    
 }
-
-
-header h1 {
-    
+header h1 {   
     font-size: 26px;
-   
 }
 .material-symbols-outlined {
    
@@ -48,7 +38,7 @@ a {
     text-decoration: none;
     color: black;
 }
-h2{ padding:30px;
+h2{ padding:30px 0px 0px 0px ;
     text-align: center;
     font-weight: 400;
 }
@@ -62,6 +52,7 @@ h2{ padding:30px;
     border-bottom: 1px solid #757575 ;
     margin: 10px 15px 0px 15px ;
     cursor: pointer;
+    
    
     
     
@@ -80,6 +71,8 @@ div img {
     letter-spacing: 0.03333em;
     
     
+    
+    
 }
 
 
@@ -87,7 +80,7 @@ footer{
     background-color: white ;
     display: flex;
     justify-content: space-around;
-    height: 60px;
+    height: 51px;
     
     align-items: center;
     
@@ -120,7 +113,15 @@ footer div {
 justify-content: left;
 }
 #caixa {
-    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
-    
-
+button {
+  
+}
+.link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
